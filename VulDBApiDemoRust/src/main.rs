@@ -14,7 +14,7 @@ use std::error::Error;
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
     // API URL
-    let url = "https://vuldb.com/?api";
+    let url = "https://vuldb.com/api";
 
     // Headers for authentication
     let personal_api_key = ""; // Enter your personal API key here
